@@ -177,15 +177,6 @@ section h2 {
   border-radius: 20px;
 }
 
-/* FOOTER */
-footer {
-  background: #14532d;
-  color: white;
-  text-align: center;
-  padding: 20px;
-  margin-top: 50px;
-}
-
 /* MOBILE */
 @media (max-width: 600px) {
   .hero h1 {
