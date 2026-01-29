@@ -5,7 +5,7 @@ html {
 .navbar {
   position: sticky;
   top: 0;
-  background: grey;
+  background: white;
   z-index: 1000;
   box-shadow: 0 4px 12px rgba(0,0,0,0.05);
 }
@@ -20,7 +20,7 @@ html {
 }
 
 .logo {
-  height: 65px;      
+  height: 45px;      
   width: auto;
   position: relative;
   top: 0;
