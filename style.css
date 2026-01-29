@@ -19,14 +19,6 @@ html {
   align-items: center;
 }
 
-/* LOGO POSITION & SIZE */
-header {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 10px 30px;
-}
-
 .logo {
   height: 65px;        /* increase size here */
   width: auto;
