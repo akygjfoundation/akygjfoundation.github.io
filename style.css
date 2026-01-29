@@ -364,3 +364,49 @@ section {
   color: #15803d;
   font-weight: bold;
 }
+/* STICKY NAVBAR */
+header {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background: white;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+}
+/* WHATSAPP BUTTON */
+.whatsapp-float {
+  position: fixed;
+  bottom: 25px;
+  right: 25px;
+  background: #25d366;
+  color: white;
+  font-size: 26px;
+  padding: 14px 16px;
+  border-radius: 50%;
+  text-decoration: none;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.25);
+  z-index: 1000;
+}
+/* IMPACT SECTION */
+#impact {
+  background: #14532d;
+  color: white;
+  border-radius: 25px;
+  margin-top: 80px;
+}
+
+.impact-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 30px;
+  text-align: center;
+}
+
+.impact-box h3 {
+  font-size: 2.5rem;
+  margin-bottom: 5px;
+  color: #bbf7d0;
+}
+
+.impact-box p {
+  font-size: 1rem;
+}
