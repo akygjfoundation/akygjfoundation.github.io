@@ -161,4 +161,26 @@ footer {
     font-size: 2.2rem;
   }
 }
+.card h3 {
+  margin: 10px 0 8px;
+  color: #14532d;
+}
 
+.card p {
+  font-size: 0.95rem;
+  color: #4b5563;
+}
+
+.icon {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+.card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 15px 30px rgba(0,0,0,0.12);
+}
