@@ -19,12 +19,20 @@ html {
   align-items: center;
 }
 
-.logo {
+/* LOGO POSITION & SIZE */
+header {
   display: flex;
   align-items: center;
-  gap: 10px;
-  font-weight: bold;
-  color: #14532d;
+  justify-content: space-between;
+  padding: 10px 30px;
+}
+
+.logo {
+  height: 65px;        /* increase size here */
+  width: auto;
+  position: relative;
+  top: 0;
+  left: 0;
 }
 /* CONTACT SECTION */
 #contact {
