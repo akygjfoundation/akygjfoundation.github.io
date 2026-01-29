@@ -380,3 +380,18 @@ section {
 .impact-box p {
   font-size: 1rem;
 }
+/* ABOUT SECTION */
+#about {
+  margin-top: 80px;
+  background: #f0fdf4;
+  padding: 50px 30px;
+  border-radius: 25px;
+}
+
+#about p {
+  max-width: 800px;
+  margin: 15px auto;
+  line-height: 1.8;
+  text-align: center;
+  color: #374151;
+}
