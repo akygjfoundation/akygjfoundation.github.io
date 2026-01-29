@@ -212,3 +212,41 @@ footer {
   transform: translateY(-8px);
   box-shadow: 0 15px 30px rgba(0,0,0,0.12);
 }
+/* DONATE BUTTON (NAV) */
+.donate-btn {
+  background: #22c55e;
+  color: white !important;
+  padding: 8px 18px;
+  border-radius: 20px;
+  font-weight: bold;
+}
+
+.donate-btn:hover {
+  background: #16a34a;
+}
+
+/* DONATE SECTION */
+.donate-section {
+  background: linear-gradient(135deg, #14532d, #22c55e);
+  color: white;
+  text-align: center;
+  padding: 80px 20px;
+  border-radius: 25px;
+  margin: 80px auto;
+  max-width: 1000px;
+}
+
+.donate-section p {
+  max-width: 600px;
+  margin: 15px auto 30px;
+}
+
+.donate-main-btn {
+  background: white;
+  color: #14532d;
+  padding: 14px 36px;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.1rem;
+}
