@@ -355,28 +355,7 @@ section {
   color: #15803d;
   font-weight: bold;
 }
-/* STICKY NAVBAR */
-header {
-  position: sticky;
-  top: 0;
-  z-index: 1000;
-  background: white;
-  box-shadow: 0 4px 15px rgba(0,0,0,0.08);
-}
-/* WHATSAPP BUTTON */
-.whatsapp-float {
-  position: fixed;
-  bottom: 25px;
-  right: 25px;
-  background: #25d366;
-  color: white;
-  font-size: 26px;
-  padding: 14px 16px;
-  border-radius: 50%;
-  text-decoration: none;
-  box-shadow: 0 10px 25px rgba(0,0,0,0.25);
-  z-index: 1000;
-}
+
 /* IMPACT SECTION */
 #impact {
   background: #14532d;
