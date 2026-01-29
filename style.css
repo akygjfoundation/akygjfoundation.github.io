@@ -250,3 +250,22 @@ footer {
   font-weight: bold;
   font-size: 1.1rem;
 }
+/* DONATION DETAILS */
+.donation-details {
+  background: white;
+  color: #14532d;
+  max-width: 600px;
+  margin: 30px auto 0;
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0 15px 30px rgba(0,0,0,0.15);
+}
+
+.donation-details h3 {
+  margin-top: 20px;
+  color: #166534;
+}
+
+.donation-details p {
+  line-height: 1.7;
+}
