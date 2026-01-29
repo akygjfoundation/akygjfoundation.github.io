@@ -1,3 +1,6 @@
+html {
+  scroll-behavior: smooth;
+}
 /* NAVBAR */
 .navbar {
   position: sticky;
@@ -339,4 +342,18 @@ footer {
 
 .volunteer-form button:hover {
   background: #16a34a;
+}
+section {
+  animation: fadeUp 0.8s ease-in;
+}
+
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
