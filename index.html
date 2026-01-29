@@ -79,6 +79,27 @@
     </div>
   </div>
 </section>
+    <!-- IMPACT -->
+<section id="impact">
+  <h2>Our Impact</h2>
+
+  <div class="impact-grid">
+    <div class="impact-box">
+      <h3 class="counter" data-target="120">0</h3>
+      <p>Volunteers</p>
+    </div>
+
+    <div class="impact-box">
+      <h3 class="counter" data-target="35">0</h3>
+      <p>Villages Reached</p>
+    </div>
+
+    <div class="impact-box">
+      <h3 class="counter" data-target="500">0</h3>
+      <p>Families Supported</p>
+    </div>
+  </div>
+</section>
     <!-- VOLUNTEER -->
 <section id="volunteer">
   <h2>Become a Volunteer</h2>
@@ -155,6 +176,33 @@
 function showSuccess() {
   document.getElementById("success-msg").style.display = "block";
 }
+</script>
+    <a
+  href="https://wa.me/918291235597"
+  class="whatsapp-float"
+  target="_blank"
+>
+  💬
+</a>
+    <script>
+const counters = document.querySelectorAll('.counter');
+
+counters.forEach(counter => {
+  const updateCounter = () => {
+    const target = +counter.getAttribute('data-target');
+    const current = +counter.innerText;
+    const increment = Math.ceil(target / 80);
+
+    if (current < target) {
+      counter.innerText = current + increment;
+      setTimeout(updateCounter, 30);
+    } else {
+      counter.innerText = target;
+    }
+  };
+
+  updateCounter();
+});
 </script>
 </body>
 </html>
