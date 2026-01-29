@@ -23,6 +23,34 @@
   font-weight: bold;
   color: #14532d;
 }
+/* CONTACT SECTION */
+#contact {
+  background: #f0fdf4;
+  border-radius: 20px;
+  margin-top: 60px;
+}
+
+.contact-text {
+  text-align: center;
+  max-width: 600px;
+  margin: 0 auto 30px;
+  color: #374151;
+}
+
+.contact-box {
+  background: white;
+  max-width: 500px;
+  margin: auto;
+  padding: 30px;
+  border-radius: 15px;
+  text-align: center;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+}
+
+.contact-box p {
+  margin: 12px 0;
+  font-size: 1rem;
+}
 
 .logo img {
   height: 40px;
