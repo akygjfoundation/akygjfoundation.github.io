@@ -357,3 +357,10 @@ section {
     transform: translateY(0);
   }
 }
+#success-msg {
+  display: none;
+  text-align: center;
+  margin-top: 15px;
+  color: #15803d;
+  font-weight: bold;
+}
