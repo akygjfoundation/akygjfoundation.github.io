@@ -95,7 +95,11 @@
     <input type="email" placeholder="Email Address" required>
     <input type="tel" placeholder="Phone Number" required>
     <textarea placeholder="How would you like to help?" rows="4"></textarea>
-    <button type="submit">Join as Volunteer</button>
+    <button type="submit" onclick="showSuccess()">
+  Join as Volunteer
+</button>
+
+<p id="success-msg">Thank you! We will contact you soon 🌱</p>
   </form>
 </section>
     <!-- CONTACT -->
@@ -147,5 +151,10 @@
     <footer>
         <p>&copy; 2025 My New Website. All rights reserved.</p>
     </footer>
+    <script>
+function showSuccess() {
+  document.getElementById("success-msg").style.display = "block";
+}
+</script>
 </body>
 </html>
